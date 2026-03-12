@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barala Hospital &amp; Research Centre | Chomu, Jaipur, Rajasthan</title>
+  <meta name="description" content="Advanced multi-speciality hospital in Chomu, Jaipur — Cardiology, Neuro-Surgery, Gynaecology, Orthopaedics, Urology, Emergency &amp; more. 24×7 care.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+
+  <!-- [5] Font Awesome — real icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- [2] No emergency bar at top -->
+
+<!-- ═══════ NAVBAR ═══════════════════════════════════════ -->
+<nav id="navbar" class="top">
+  <div class="nav-inner">
+
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+      </div>
+      <div>
+        <span class="nav-logo-name">Barala Hospital</span>
+        <span class="nav-logo-sub">&amp; Research Centre, Chomu</span>
+      </div>
+    </a>
+
+    <div class="nav-links">
+      <a href="index.html"       class="nav-link">Home</a>
+      <a href="about.html"       class="nav-link">About</a>
+      <a href="departments.html" class="nav-link">Departments</a>
+      <a href="doctors.html"     class="nav-link">Doctors</a>
+      <a href="facilities.html"  class="nav-link">Facilities</a>
+      <a href="blog.html"        class="nav-link">Blog</a>
+      <a href="contact.html"     class="nav-link">Contact</a>
+      <a href="#" class="nav-cta" data-modal="appointment">Book Appointment</a>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div id="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="departments.html">Departments</a>
+    <a href="doctors.html">Doctors</a>
+    <a href="facilities.html">Facilities</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+    <a href="#" class="mobile-cta" data-modal="appointment">📅 Book Appointment</a>
+  </div>
+</nav>
+
+<!-- ═══════ [3] HERO ═════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-bg-img"></div>
+  <div class="hero-pattern"></div>
+
+  <!-- hero-body: max-width centered, padding keeps it off edges -->
+  <div class="hero-body">
+    <div class="hero-badge">
+      <span class="hero-dot"></span> Open 24 Hours · 365 Days
+    </div>
+
+    <h1>Advanced Multi-Speciality<br>Healthcare <em>in Chomu</em></h1>
+
+    <p class="hero-desc">
+      Barala Hospital &amp; Research Centre delivers internationally benchmarked
+      care — accessible and affordable for every family across the Jaipur–Sikar belt.
+    </p>
+
+    <div class="hero-pills">
+      <span class="pill"><i class="fa-solid fa-bolt"></i> 24×7 Emergency</span>
+      <span class="pill"><i class="fa-solid fa-user-doctor"></i> 30+ Specialists</span>
+      <span class="pill"><i class="fa-solid fa-shield-halved"></i> 50+ TPA Cashless</span>
+      <span class="pill"><i class="fa-solid fa-microscope"></i> In-House Diagnostics</span>
+    </div>
+
+    <div class="hero-ctas">
+      <a href="#" class="btn btn-gold" data-modal="appointment">
+        <i class="fa-solid fa-calendar-check"></i> Book Appointment
+      </a>
+      <a href="departments.html" class="btn btn-outline">
+        Explore Departments
+      </a>
+    </div>
+  </div>
+
+  <!-- Stats bar at hero bottom -->
+  <div class="hero-stats">
+    <div class="hero-stats-grid">
+      <div class="hero-stat">
+        <span class="stat-n" data-count="200" data-suffix="+">200+</span>
+        <span class="stat-l">Hospital Beds</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-n" data-count="30" data-suffix="+">30+</span>
+        <span class="stat-l">Speciality Centres</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-n" data-count="50" data-suffix="+">50+</span>
+        <span class="stat-l">Cashless TPA Partners</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-n" data-count="400" data-suffix="+">400+</span>
+        <span class="stat-l">Medical Staff</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ DEPARTMENTS ══════════════════════════════════ -->
+<section class="section bg-off">
+  <div class="container">
+    <div class="reveal">
+      <div class="label">Our Specialities</div>
+      <h2>Comprehensive Medical Departments</h2>
+      <p class="section-sub">From routine consultations to complex interventional procedures, our multi-disciplinary team covers the full spectrum of care.</p>
+    </div>
+
+    <div class="dept-grid reveal">
+
+      <div class="card dept-card">
+        <div class="dept-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402z"/></svg>
+        </div>
+        <h3>Cardiology</h3>
+        <p>Cath Lab, PTCA, angiography, angioplasty, pacemaker implantation, and heart failure management.</p>
+        <a href="departments.html" class="dept-more">Learn more →</a>
+      </div>
+
+      <div class="card dept-card">
+        <div class="dept-icon">
+          <svg viewBox="0 0 24 24"><path d="M22 7h-2V4h-3V2h5v5zm0 15v-5h-2v3h-3v2h5zM2 22h5v-2H4v-3H2v5zM2 2v5h2V4h3V2H2z"/></svg>
+        </div>
+        <h3>Neuro-Surgery &amp; Spine</h3>
+        <p>Minimally invasive brain and spine surgery, endovascular neurosurgery, stroke care, and neurological diagnostics.</p>
+        <a href="departments.html" class="dept-more">Learn more →</a>
+      </div>
+
+      <div class="card dept-card">
+        <div class="dept-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2a5 5 0 1 0 0 10A5 5 0 0 0 12 2zm0 12c-5.33 0-8 2.67-8 4v2h16v-2c0-1.33-2.67-4-8-4z"/></svg>
+        </div>
+        <h3>Obstetrics &amp; Gynaecology</h3>
+        <p>High-risk pregnancies, infertility treatment, minimally invasive gynaecological surgery, and IVF services.</p>
+        <a href="departments.html" class="dept-more">Learn more →</a>
+      </div>
+
+      <div class="card dept-card">
+        <div class="dept-icon">
+          <svg viewBox="0 0 24 24"><path d="M13.49 5.48c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm-3.6 13.9l1-4.4 2.1 2v6h2v-7.5l-2.1-2 .6-3c1.3 1.5 3.3 2.5 5.5 2.5v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6c-.4-.6-1-1-1.7-1-.3 0-.5.1-.8.1l-5.2 2.2v4.7h2v-3.4l1.8-.7-1.6 8.1-4.9-1-.4 2 7 1.4z"/></svg>
+        </div>
+        <h3>Orthopaedics &amp; Trauma</h3>
+        <p>Fracture management, joint replacement, sports injury rehabilitation, spine care, and poly-trauma management.</p>
+        <a href="departments.html" class="dept-more">Learn more →</a>
+      </div>
+
+      <div class="card dept-card">
+        <div class="dept-icon">
+          <svg viewBox="0 0 24 24"><path d="M19 8l-4 4h3c0 3.31-2.69 6-6 6a5.87 5.87 0 0 1-2.8-.7l-1.46 1.46A7.93 7.93 0 0 0 12 20c4.42 0 8-3.58 8-8h3l-4-4z"/></svg>
+        </div>
+        <h3>Emergency Medicine</h3>
+        <p>24×7 emergency department with direct access to ICU, OT, CT scan, blood bank. No delay for critical patients.</p>
+        <a href="departments.html" class="dept-more">Learn more →</a>
+      </div>
+
+      <div class="card dept-card">
+        <div class="dept-icon">
+          <svg viewBox="0 0 24 24"><path d="M17 2H7c-1.1 0-2 .9-2 2v16l7-3 7 3V4c0-1.1-.9-2-2-2zm-5 11.5l-2-1.2-2 1.2.5-2.3-1.8-1.5 2.3-.2 1-2.2 1 2.2 2.3.2-1.8 1.5.5 2.3z"/></svg>
+        </div>
+        <h3>Diagnostics &amp; Imaging</h3>
+        <p>In-house CT Scan, Ultrasound, Pathology Lab, ECG, Echocardiography, EEG, and digital X-Ray — all 24 hours.</p>
+        <a href="facilities.html" class="dept-more">Learn more →</a>
+      </div>
+
+    </div>
+
+    <div class="reveal" style="text-align:center;margin-top:36px;">
+      <a href="departments.html" class="btn btn-primary">View All Departments</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ [6] WHY-US — Contrast Fixed ══════════════════ -->
+<!--
+  .why-section  = dark navy bg
+  .why-grid     = named class, responsive via media query
+  .s-num        = gold text on dark = high contrast
+  .s-lbl        = white-ish text on dark = visible
+-->
+<section class="why-section">
+  <div class="container">
+    <div class="why-grid reveal">
+
+      <!-- Left: benefits text -->
+      <div>
+        <div class="label label-white">Why Barala Hospital</div>
+        <h2 style="margin-bottom:16px;">Healthcare Rooted in<br>
+          <span style="color:var(--gold)">Community &amp; Compassion</span>
+        </h2>
+        <p style="margin-bottom:28px;">
+          Founded by physicians who returned to Chomu, Barala Hospital was built on the
+          belief that rural Rajasthan deserves world-class medical care — accessible to
+          every patient regardless of socio-economic background.
+        </p>
+
+        <div class="why-item">
+          <div class="why-item-icon">
+            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          </div>
+          <div>
+            <h4>Empanelled with BSBY &amp; ECHS</h4>
+            <p>Ranked among top hospitals in Rajasthan under the state health scheme. Cashless for defence personnel.</p>
+          </div>
+        </div>
+
+        <div class="why-item">
+          <div class="why-item-icon">
+            <svg viewBox="0 0 24 24"><path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"/></svg>
+          </div>
+          <div>
+            <h4>50+ Cashless TPA Insurance Tie-Ups</h4>
+            <p>Seamless cashless hospitalisation across all major Indian health insurance providers.</p>
+          </div>
+        </div>
+
+        <div class="why-item">
+          <div class="why-item-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+          </div>
+          <div>
+            <h4>Award-Recognised Quality Care</h4>
+            <p>ICICI Lombard quality award recipient. 4.4★ Justdial rating from 1,200+ verified patient reviews.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: stat cards -->
+      <div class="stat-cards">
+        <div class="s-card">
+          <span class="s-num">3,000+</span>
+          <span class="s-lbl">PTCA procedures performed (hospital-reported)</span>
+        </div>
+        <div class="s-card">
+          <span class="s-num">4.4★</span>
+          <span class="s-lbl">Justdial patient rating — 1,200+ reviews</span>
+        </div>
+        <div class="s-card">
+          <span class="s-num">24×7</span>
+          <span class="s-lbl">Emergency, ICU, Blood Bank &amp; Pharmacy</span>
+        </div>
+        <div class="s-card">
+          <span class="s-num">200+</span>
+          <span class="s-lbl">Beds across 30+ speciality departments</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ [4] DOCTORS — 2 per row mobile ═══════════════ -->
+<section class="section bg-off">
+  <div class="container">
+    <div class="reveal" style="text-align:center;">
+      <div class="label">Our Specialists</div>
+      <h2>Meet Our Doctors</h2>
+      <p style="max-width:520px;margin:10px auto 40px;">
+        Highly qualified specialists trained at premier institutions, committed to delivering
+        the best possible outcomes for every patient.
+      </p>
+    </div>
+
+    <!-- [4] doctors-grid: repeat(2,1fr) on mobile → 4-col on desktop -->
+    <div class="doctors-grid reveal">
+
+      <div class="card doc-card">
+        <div class="doc-img">
+          <img src="images/doctor1.jpg" alt="Dr. Hanuman Sahai Barala"
+            onerror="this.src='https://ui-avatars.com/api/?name=H+Barala&background=1565C0&color=fff&size=400&bold=true&font-size=0.45'">
+          <div class="doc-hover">
+            <a href="doctors.html" class="btn btn-primary" style="padding:8px 18px;font-size:.78rem;">View Profile</a>
+          </div>
+        </div>
+        <div class="doc-info">
+          <div class="doc-name">Dr. Hanuman S. Barala</div>
+          <div class="doc-spec">Cardiology</div>
+          <div class="doc-exp">Director · Interventional Cardiologist</div>
+          <a href="doctors.html" class="doc-btn">View Profile</a>
+        </div>
+      </div>
+
+      <div class="card doc-card">
+        <div class="doc-img">
+          <img src="images/doctor2.jpg" alt="Dr. Amit Barala"
+            onerror="this.src='https://ui-avatars.com/api/?name=A+Barala&background=1565C0&color=fff&size=400&bold=true&font-size=0.45'">
+          <div class="doc-hover">
+            <a href="doctors.html" class="btn btn-primary" style="padding:8px 18px;font-size:.78rem;">View Profile</a>
+          </div>
+        </div>
+        <div class="doc-info">
+          <div class="doc-name">Dr. Amit Barala</div>
+          <div class="doc-spec">Neuro-Surgery</div>
+          <div class="doc-exp">Director · Neuro-Surgery Unit</div>
+          <a href="doctors.html" class="doc-btn">View Profile</a>
+        </div>
+      </div>
+
+      <div class="card doc-card">
+        <div class="doc-img">
+          <img src="images/doctor3.jpg" alt="Dr. Deepika Barala"
+            onerror="this.src='https://ui-avatars.com/api/?name=D+Barala&background=1565C0&color=fff&size=400&bold=true&font-size=0.45'">
+          <div class="doc-hover">
+            <a href="doctors.html" class="btn btn-primary" style="padding:8px 18px;font-size:.78rem;">View Profile</a>
+          </div>
+        </div>
+        <div class="doc-info">
+          <div class="doc-name">Dr. Deepika Barala</div>
+          <div class="doc-spec">Obs &amp; Gynaecology</div>
+          <div class="doc-exp">MS Obs &amp; Gynae · 8+ Years</div>
+          <a href="doctors.html" class="doc-btn">View Profile</a>
+        </div>
+      </div>
+
+      <div class="card doc-card">
+        <div class="doc-img">
+          <img src="images/doctor4.jpg" alt="Dr. Abhishek Barala"
+            onerror="this.src='https://ui-avatars.com/api/?name=Ab+Barala&background=1565C0&color=fff&size=400&bold=true&font-size=0.45'">
+          <div class="doc-hover">
+            <a href="doctors.html" class="btn btn-primary" style="padding:8px 18px;font-size:.78rem;">View Profile</a>
+          </div>
+        </div>
+        <div class="doc-info">
+          <div class="doc-name">Dr. Abhishek Barala</div>
+          <div class="doc-spec">Urology &amp; Nephrology</div>
+          <div class="doc-exp">MCh Urology Specialist</div>
+          <a href="doctors.html" class="doc-btn">View Profile</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="reveal" style="text-align:center;margin-top:32px;">
+      <a href="doctors.html" class="btn btn-primary">View All Doctors</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ FACILITIES ════════════════════════════════════ -->
+<section class="section">
+  <div class="container">
+    <div class="reveal">
+      <div class="label">World-Class Infrastructure</div>
+      <h2>Our Facilities</h2>
+      <p style="max-width:520px;margin-bottom:40px;">Advanced technology supporting accurate diagnosis, safe surgery, and effective treatment — available 24 hours a day.</p>
+    </div>
+
+    <div class="fac-grid reveal">
+      <div class="card fac-card">
+        <div class="fac-icon"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg></div>
+        <div><h4>Advanced ICU</h4><p>Adult ICU, NICU, and PICU with ventilatory support and 24-hour specialist oversight.</p></div>
+      </div>
+      <div class="card fac-card">
+        <div class="fac-icon"><svg viewBox="0 0 24 24"><path d="M20 6h-2.18c.07-.44.18-.86.18-1.3C18 2.12 15.88 0 13.3 0c-1.48 0-2.67.81-3.44 2.05L9 3.5 8.14 2.05C7.37.81 6.18 0 4.7 0 2.12 0 0 2.12 0 4.7c0 .44.11.86.18 1.3H0v14h20V6z"/></svg></div>
+        <div><h4>Modular Operation Theatres</h4><p>Four OTs including Modular OTs with Laminar Flow — international sterile standards.</p></div>
+      </div>
+      <div class="card fac-card">
+        <div class="fac-icon"><svg viewBox="0 0 24 24"><path d="M17 2H7c-1.1 0-2 .9-2 2v16l7-3 7 3V4c0-1.1-.9-2-2-2z"/></svg></div>
+        <div><h4>24-Hour Blood Bank</h4><p>In-house licensed Blood Bank with high-end machines — open round-the-clock.</p></div>
+      </div>
+      <div class="card fac-card">
+        <div class="fac-icon"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg></div>
+        <div><h4>CT Scan &amp; Diagnostics</h4><p>24×7 CT Scan, Ultrasound, X-Ray, ECG, Echocardiography, EEG — all under one roof.</p></div>
+      </div>
+      <div class="card fac-card">
+        <div class="fac-icon"><svg viewBox="0 0 24 24"><path d="M19 8l-4 4h3c0 3.31-2.69 6-6 6a5.87 5.87 0 0 1-2.8-.7l-1.46 1.46A7.93 7.93 0 0 0 12 20c4.42 0 8-3.58 8-8h3l-4-4z"/></svg></div>
+        <div><h4>Emergency Services</h4><p>24×7 emergency ward with direct access to OT, ICU, lab, and blood bank — zero delays.</p></div>
+      </div>
+      <div class="card fac-card">
+        <div class="fac-icon"><svg viewBox="0 0 24 24"><path d="M17.5 14.33C18.33 13.5 19 11.5 19 10c0-3.87-3.13-7-7-7S5 6.13 5 10c0 1.5.67 3.5 1.5 4.33C3.64 16.03 2 19.79 2 22h20c0-2.21-1.64-5.97-4.5-7.67z"/></svg></div>
+        <div><h4>ICU-on-Wheels Ambulance</h4><p>Ventilator-equipped ambulances with monitors and trained paramedics — critical care en-route.</p></div>
+      </div>
+    </div>
+
+    <div class="reveal" style="text-align:center;margin-top:32px;">
+      <a href="facilities.html" class="btn btn-primary">View All Facilities</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ TESTIMONIALS ══════════════════════════════════ -->
+<section class="section bg-off">
+  <div class="container">
+    <div class="reveal" style="text-align:center;">
+      <div class="label">Patient Experiences</div>
+      <h2>What Our Patients Say</h2>
+      <p style="max-width:480px;margin:10px auto 36px;">Real experiences from patients and families across Chomu, Jaipur, Sikar, and the Shekhawati region.</p>
+    </div>
+    <div class="testi-grid reveal">
+
+      <div class="card testi-card">
+        <div class="stars">★★★★★</div>
+        <p class="testi-text">"The cardiac team acted swiftly when my father had a heart attack at midnight. The emergency response and Cath Lab team were exceptional — truly grateful."</p>
+        <div class="testi-author">
+          <div class="t-avatar">R</div>
+          <div><div class="t-name">Ramesh Kumar Sharma</div><div class="t-loc">Chomu, Jaipur</div></div>
+        </div>
+      </div>
+
+      <div class="card testi-card">
+        <div class="stars">★★★★★</div>
+        <p class="testi-text">"Dr. Deepika Barala handled my high-risk pregnancy with great expertise. Her guidance throughout was reassuring. Both mother and baby are healthy."</p>
+        <div class="testi-author">
+          <div class="t-avatar">P</div>
+          <div><div class="t-name">Priya Rajawat</div><div class="t-loc">Sikar Road, Rajasthan</div></div>
+        </div>
+      </div>
+
+      <div class="card testi-card">
+        <div class="stars">★★★★☆</div>
+        <p class="testi-text">"My mother needed dialysis three times a week. The unit at Barala is well maintained, staff are professional, and the BSBY scheme made it affordable."</p>
+        <div class="testi-author">
+          <div class="t-avatar">M</div>
+          <div><div class="t-name">Mahesh Choudhary</div><div class="t-loc">Dhundhar Region</div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ CTA BAND ══════════════════════════════════════ -->
+<div class="cta-band">
+  <div class="container reveal">
+    <h2>Ready to Consult Our Specialists?</h2>
+    <p>Book your appointment today. OPD: Monday–Saturday. Emergency care: 24 hours, every day of the year.</p>
+    <div class="cta-btns">
+      <a href="#" class="btn btn-gold" data-modal="appointment">
+        <i class="fa-solid fa-calendar-check"></i> Book Appointment
+      </a>
+      <a href="contact.html" class="btn btn-outline">
+        <i class="fa-solid fa-phone"></i> Contact Us
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════ FOOTER ════════════════════════════════════════ -->
+<!-- [2] Emergency info lives here only — not at top -->
+<footer>
+  <div class="container">
+    <div class="footer-wrap">
+
+      <div class="f-brand">
+        <h3>Barala Hospital &amp; Research Centre</h3>
+        <p>Advanced multi-speciality healthcare in Chomu, Jaipur — serving communities of the Jaipur–Sikar belt with compassionate, affordable, expert care.</p>
+
+        <!-- [5] Real Font Awesome social icons -->
+        <div class="social-row">
+          <a href="https://www.facebook.com/profile.php?id=61575916227170"
+             class="soc" target="_blank" rel="noopener" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/baralahospitalchomu"
+             class="soc" target="_blank" rel="noopener" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/918875004330"
+             class="soc soc-wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+
+        <!-- [2] Emergency block in footer -->
+        <div class="f-emergency">
+          <p>🚨 24×7 EMERGENCY HELPLINE</p>
+          <a href="tel:8875004330">8875004330</a>
+          <a href="tel:8875004329" style="font-size:.88rem;color:rgba(255,255,255,.72);">8875004329</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="f-head">Quick Links</div>
+        <a href="index.html"       class="f-link">Home</a>
+        <a href="about.html"       class="f-link">About Us</a>
+        <a href="departments.html" class="f-link">Departments</a>
+        <a href="doctors.html"     class="f-link">Our Doctors</a>
+        <a href="facilities.html"  class="f-link">Facilities</a>
+        <a href="appointment.html" class="f-link">Book Appointment</a>
+        <a href="contact.html"     class="f-link">Contact</a>
+      </div>
+
+      <div>
+        <div class="f-head">Departments</div>
+        <a href="departments.html" class="f-link">Cardiology</a>
+        <a href="departments.html" class="f-link">Neuro-Surgery</a>
+        <a href="departments.html" class="f-link">Gynaecology</a>
+        <a href="departments.html" class="f-link">Orthopaedics</a>
+        <a href="departments.html" class="f-link">Paediatrics</a>
+        <a href="departments.html" class="f-link">Urology</a>
+        <a href="departments.html" class="f-link">Emergency</a>
+      </div>
+
+      <div>
+        <div class="f-head">Contact</div>
+        <div class="f-item">
+          <span class="f-icon"><i class="fa-solid fa-location-dot"></i></span>
+          <span>NH-52 (Jaipur–Sikar Road), Radha Swami Bagh, Chomu, Jaipur – 303702</span>
+        </div>
+        <div class="f-item">
+          <span class="f-icon"><i class="fa-solid fa-phone"></i></span>
+          <span>
+            <a href="tel:8875004330">8875004330</a> /
+            <a href="tel:8875004329">8875004329</a>
+          </span>
+        </div>
+        <div class="f-item">
+          <span class="f-icon"><i class="fa-solid fa-envelope"></i></span>
+          <span><a href="mailto:care@baralahospital.com">care@baralahospital.com</a></span>
+        </div>
+        <div class="f-item">
+          <span class="f-icon"><i class="fa-solid fa-globe"></i></span>
+          <span><a href="https://baralahospital.com" target="_blank">www.baralahospital.com</a></span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="footer-bar">
+    <div class="container">
+      © 2025 Barala Hospital &amp; Research Centre, Chomu, Jaipur. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<!-- [5] WhatsApp float with real FA icon -->
+<a href="https://wa.me/918875004330" class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- ═══════ [7] APPOINTMENT MODAL — 5 fields only ════════ -->
+<div class="modal-overlay" id="appt-modal" role="dialog" aria-modal="true">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
+
+    <div class="modal-icon">
+      <svg viewBox="0 0 24 24"><path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"/></svg>
+    </div>
+    <div class="modal-title">Book Appointment</div>
+    <p class="modal-sub">Confirm your booking via WhatsApp instantly.</p>
+
+    <form id="appt-form" novalidate>
+
+      <!-- 1. Patient Name -->
+      <div class="form-group">
+        <label class="form-label" for="f-name">Patient Name *</label>
+        <input type="text" id="f-name" class="form-control" placeholder="Full name" required>
+      </div>
+
+      <!-- 2 & 3. Age + Gender -->
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="f-age">Age *</label>
+          <input type="number" id="f-age" class="form-control" placeholder="Age" min="0" max="120" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="f-gender">Gender *</label>
+          <select id="f-gender" class="form-control" required>
+            <option value="">Select</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- 4. Phone -->
+      <div class="form-group">
+        <label class="form-label" for="f-phone">Mobile Number *</label>
+        <input type="tel" id="f-phone" class="form-control" placeholder="10-digit number" maxlength="10" required>
+      </div>
+
+      <!-- 5. Date -->
+      <div class="form-group">
+        <label class="form-label" for="f-date">Appointment Date *</label>
+        <input type="date" id="f-date" class="form-control" required>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block">
+        <i class="fa-brands fa-whatsapp"></i> Confirm via WhatsApp
+      </button>
+
+      <p class="form-note">Opens WhatsApp with your details pre-filled. No data stored on this site.</p>
+    </form>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
