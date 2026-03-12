@@ -1,1 +1,0 @@
-# barala-hospital-website
